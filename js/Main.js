@@ -4,11 +4,10 @@
 game = new GameClass();
 
 //wait until DOM content is loaded to begin.
-document.addEventListener("deviceready",onDeviceReady, false);
+document.addEventListener("DOMContentLoaded",onDeviceReady, false);
 
 //initialize the game 
 function onDeviceReady(){
-	alert('GO');
 	init();
 	game.init();
 	game.start();
