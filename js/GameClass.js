@@ -7,10 +7,10 @@ function GameClass(){
 			
 	//provide context for the window.
 	var canvas 		= document.getElementById('Canvas');
-	canvas.width = document.body.clientWidth;
-	canvas.height = document.body.clientHeight;
-	WINDOW_WIDTH = canvas.width;
-	WINDOW_HEIGHT = canvas.height;
+	canvas.width 	= document.body.clientWidth;
+	canvas.height 	= document.body.clientHeight;
+	WINDOW_WIDTH 	= canvas.width;
+	WINDOW_HEIGHT 	= canvas.height;
 	var context		= canvas.getContext('2d');
 	scaling_factor = Math.min( canvas.width/520, canvas.height/320);
 
