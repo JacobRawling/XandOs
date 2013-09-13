@@ -15,7 +15,7 @@
 		A simple noughts and crosses game
     </description>
 
-    <author href="https://build.phonegap.com" email="support@phonegap.com">
+    <author href="-" email="mrjacob3@gmail.com">
         Jacob Rawling 
     </author>
 	<gap:plugin name="com.adobe.plugins.fastcanvas" />

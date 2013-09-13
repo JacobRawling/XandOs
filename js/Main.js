@@ -3,7 +3,7 @@
 //great a gloabl game cclass
 game = new GameClass();
 
-//wait until DOM content is loaded to begin.
+//wait until DOM content is loaded to begin. DOMContentLoaded
 document.addEventListener("deviceready",onDeviceReady, false);
 
 //initialize the game 

@@ -42,9 +42,9 @@ function MouseObject(){
     };
 	
 	this.init = function(canvas){	
-		document.body.onmouseup   = that.mouseUp;
-		document.body.onmousedown = that.mouseDown;
-		document.body.onmousemove = that.move;
+		document.body.ontouchend   = that.mouseUp;
+		document.body.ontouchstart = that.mouseDown;
+		document.body.ontouchmove = that.move;
 		
 		this.mouse_x = 0;
 		this.mouse_y 	= 0;
