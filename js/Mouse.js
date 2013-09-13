@@ -27,24 +27,25 @@ function MouseObject(){
 		return mouse_clicked;
 	};
 	this.mouseDown = function(event){
-        that.mouse_x = event.offsetX;
-        that.mouse_y = event.offsetY;	
+        that.mouse_x = event.clientX;
+        that.mouse_y = event.clientY;	
 		mouse_clicked = true;
 	};
     this.mouseUp = function(event){
-        that.mouse_x = event.offsetX;
-        that.mouse_y = event.offsetY;
+        that.mouse_x = event.clientX;
+        that.mouse_y = event.clientY;
         mouse_clicked = false;
     };
     this.move = function(event){
-        that.mouse_x = event.offsetX;
-        that.mouse_y = event.offsetY;
+        that.mouse_x = event.clientX;
+        that.mouse_y = event.clientY;
+		alert(event);
     };
 	
 	this.init = function(canvas){	
-		canvas.onmouseup   = that.mouseUp;
-		canvas.onmousedown = that.mouseDown;
-		canvas.onmousemove = that.move;
+		document.body.onmouseup   = that.mouseUp;
+		document.body.onmousedown = that.mouseDown;
+		document.body.onmousemove = that.move;
 		
 		this.mouse_x = 0;
 		this.mouse_y 	= 0;

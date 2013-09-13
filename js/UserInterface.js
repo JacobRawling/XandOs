@@ -41,11 +41,11 @@ function UserInterface(){
 		play_button  		 = new Button("play_button",166,48,(WINDOW_WIDTH-166*scaling_factor)/2,(WINDOW_HEIGHT-48*scaling_factor)/2,scaling_factor,scaling_factor,true);
 		settings_button 	 = new Button("settings_button",133,23,WINDOW_WIDTH-133-20,WINDOW_HEIGHT-48,1.0,1.0,true);
 		achievement_button 	 = new Button("achievement_button",209,24,20,WINDOW_HEIGHT-48,1.0,1.0,true);
-		resume_button		 = new Button("resume_button",180,39,(WINDOW_WIDTH-180)/2,10+53*scaling_factor,scaling_factor,scaling_factor,true);
-		restart_button		 = new Button("restart_button",180,39,(WINDOW_WIDTH-180)/2,10+(53+39)*scaling_factor,1.0,1.0,true);
+		resume_button		 = new Button("resume_button",180,39,(WINDOW_WIDTH-180*scaling_factor)/2,10+53*scaling_factor,scaling_factor,scaling_factor,true);
+		restart_button		 = new Button("restart_button",180,39,(WINDOW_WIDTH-180*scaling_factor)/2,10+(53+39)*scaling_factor,scaling_factor,scaling_factor,true);
 		
 		play_again_button 	 = new Button("play_again_button",212,110,20,60,0.6*scaling_factor,0.6*scaling_factor,true);
-		main_menu_button 	 = new Button("main_menu_button",240,39,(WINDOW_WIDTH-240)/2,10+(53+39+39)*scaling_factor,scaling_factor,scaling_factor,true);
+		main_menu_button 	 = new Button("main_menu_button",240,39,(WINDOW_WIDTH-240*scaling_factor)/2,10+(53+39+39)*scaling_factor,scaling_factor,scaling_factor,true);
 		
 		left_arrow_button    = new Button("left_arrow_button",37,26,(WINDOW_WIDTH-336*0.5*scaling_factor)/2 - 40*scaling_factor,(WINDOW_HEIGHT-26*scaling_factor)/2,scaling_factor,scaling_factor,true);
 		right_arrow_button    = new Button("right_arrow_button",37,26,(WINDOW_WIDTH+336*0.5*scaling_factor)/2 ,(WINDOW_HEIGHT-26*scaling_factor)/2,scaling_factor,scaling_factor,true);

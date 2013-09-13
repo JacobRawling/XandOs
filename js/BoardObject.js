@@ -214,8 +214,8 @@ function BoardObject(){
     }
 
 
-    var cross_image  = new SpriteObject(68 ,68 ,1,1,1,"cross",24, square_size/68*scaling_factor , square_size/68*scaling_factor ,true,false);
-    var nought_image = new SpriteObject(68 ,68 ,1,1,1,"nought",24, square_size/68* scaling_factor , square_size/68*scaling_factor ,true,false);
+    var cross_image  = new SpriteObject(68 ,68 ,1,1,1,"cross",24, square_size/68 , square_size/68 ,true,false);
+    var nought_image = new SpriteObject(68 ,68 ,1,1,1,"nought",24, square_size/68 , square_size/68 ,true,false);
     var that = this;
 	var game_over = false;
 	var noughts_won = true;
