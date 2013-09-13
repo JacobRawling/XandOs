@@ -39,7 +39,6 @@ function MouseObject(){
     this.move = function(event){
         that.mouse_x = event.clientX;
         that.mouse_y = event.clientY;
-		alert(event);
     };
 	
 	this.init = function(canvas){	

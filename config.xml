@@ -3,8 +3,10 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.noughts_and_crosses"
         versionCode="10" 
-        version   = "1.0.0">
-
+        version   = "1.0.1">
+	
+        <access origin="*" />
+        <content src="index.html" />
     <!-- versionCode is optional and Android only -->
 
     <name>Noughts and Crosses</name>
@@ -17,4 +19,4 @@
         Jacob Rawling 
     </author>
 	<gap:plugin name="com.adobe.plugins.fastcanvas" />
-</widget>
+	</widget>
